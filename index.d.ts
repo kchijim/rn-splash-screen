@@ -1,4 +1,6 @@
 declare module "rn-splash-screen" {
-  //   function show() {}
-  //   function hide() {}
+  export default class SplashScreen {
+    static hide(): void;
+    static show(): void;
+  }
 }
