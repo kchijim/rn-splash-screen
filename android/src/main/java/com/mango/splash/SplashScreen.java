@@ -52,7 +52,7 @@ public class SplashScreen {
      * 打开启动屏
      */
     public static void show(final Activity activity) {
-        show(activity, false);
+        show(activity, true);
     }
 
     /**
